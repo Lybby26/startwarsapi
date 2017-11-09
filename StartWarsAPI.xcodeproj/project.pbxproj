@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DD2309940C7DDEFB7D7CF91 /* libPods-StartWarsAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B8118EC03270ED13FCAC64 /* libPods-StartWarsAPI.a */; };
 		9A48616B1FB3D7A60092AEA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A48616A1FB3D7A60092AEA6 /* AppDelegate.m */; };
 		9A48616E1FB3D7A60092AEA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A48616D1FB3D7A60092AEA6 /* ViewController.m */; };
 		9A4861711FB3D7A70092AEA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A48616F1FB3D7A70092AEA6 /* Main.storyboard */; };
@@ -14,9 +15,13 @@
 		9A4861761FB3D7A70092AEA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4861751FB3D7A70092AEA6 /* Assets.xcassets */; };
 		9A4861791FB3D7A70092AEA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4861771FB3D7A70092AEA6 /* LaunchScreen.storyboard */; };
 		9A48617C1FB3D7A70092AEA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A48617B1FB3D7A70092AEA6 /* main.m */; };
+		9A4861851FB3D8BB0092AEA6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9A4861841FB3D8BB0092AEA6 /* Podfile */; };
+		9A48618E1FB3DB3B0092AEA6 /* WebServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A48618D1FB3DB3B0092AEA6 /* WebServices.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		042DFB78C5CAB05232BAD28F /* Pods-StartWarsAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartWarsAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StartWarsAPI/Pods-StartWarsAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		76B8118EC03270ED13FCAC64 /* libPods-StartWarsAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StartWarsAPI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4861661FB3D7A60092AEA6 /* StartWarsAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StartWarsAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4861691FB3D7A60092AEA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A48616A1FB3D7A60092AEA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,6 +33,11 @@
 		9A4861781FB3D7A70092AEA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A48617A1FB3D7A70092AEA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A48617B1FB3D7A70092AEA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A4861841FB3D8BB0092AEA6 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		9A4861881FB3D95A0092AEA6 /* constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		9A48618C1FB3DB3B0092AEA6 /* WebServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebServices.h; sourceTree = "<group>"; };
+		9A48618D1FB3DB3B0092AEA6 /* WebServices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebServices.m; sourceTree = "<group>"; };
+		E7B4719D6D3EC5EB9216B00E /* Pods-StartWarsAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartWarsAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-StartWarsAPI/Pods-StartWarsAPI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +45,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DD2309940C7DDEFB7D7CF91 /* libPods-StartWarsAPI.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30708F9BF62CCA264283F1BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76B8118EC03270ED13FCAC64 /* libPods-StartWarsAPI.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D589D86799644637EB9AD83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				042DFB78C5CAB05232BAD28F /* Pods-StartWarsAPI.debug.xcconfig */,
+				E7B4719D6D3EC5EB9216B00E /* Pods-StartWarsAPI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9A48615D1FB3D7A60092AEA6 = {
 			isa = PBXGroup;
 			children = (
+				9A4861841FB3D8BB0092AEA6 /* Podfile */,
 				9A4861681FB3D7A60092AEA6 /* StartWarsAPI */,
 				9A4861671FB3D7A60092AEA6 /* Products */,
+				8D589D86799644637EB9AD83 /* Pods */,
+				30708F9BF62CCA264283F1BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +91,11 @@
 		9A4861681FB3D7A60092AEA6 /* StartWarsAPI */ = {
 			isa = PBXGroup;
 			children = (
-				9A4861821FB3D7C30092AEA6 /* New Group */,
-				9A4861691FB3D7A60092AEA6 /* AppDelegate.h */,
-				9A48616A1FB3D7A60092AEA6 /* AppDelegate.m */,
-				9A48616C1FB3D7A60092AEA6 /* ViewController.h */,
-				9A48616D1FB3D7A60092AEA6 /* ViewController.m */,
+				9A4861891FB3D9630092AEA6 /* Models */,
+				9A4861871FB3D9260092AEA6 /* ws */,
+				9A4861861FB3D91A0092AEA6 /* Helpers */,
+				9A4861831FB3D7D70092AEA6 /* Main */,
+				9A4861821FB3D7C30092AEA6 /* Controllers */,
 				9A48616F1FB3D7A70092AEA6 /* Main.storyboard */,
 				9A4861751FB3D7A70092AEA6 /* Assets.xcassets */,
 				9A4861771FB3D7A70092AEA6 /* LaunchScreen.storyboard */,
@@ -75,11 +106,46 @@
 			path = StartWarsAPI;
 			sourceTree = "<group>";
 		};
-		9A4861821FB3D7C30092AEA6 /* New Group */ = {
+		9A4861821FB3D7C30092AEA6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A48616C1FB3D7A60092AEA6 /* ViewController.h */,
+				9A48616D1FB3D7A60092AEA6 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9A4861831FB3D7D70092AEA6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9A4861691FB3D7A60092AEA6 /* AppDelegate.h */,
+				9A48616A1FB3D7A60092AEA6 /* AppDelegate.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9A4861861FB3D91A0092AEA6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9A4861881FB3D95A0092AEA6 /* constants.h */,
+				9A48618C1FB3DB3B0092AEA6 /* WebServices.h */,
+				9A48618D1FB3DB3B0092AEA6 /* WebServices.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9A4861871FB3D9260092AEA6 /* ws */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "New Group";
+			path = ws;
+			sourceTree = "<group>";
+		};
+		9A4861891FB3D9630092AEA6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A48617F1FB3D7A70092AEA6 /* Build configuration list for PBXNativeTarget "StartWarsAPI" */;
 			buildPhases = (
+				A25BF64E62CF5A5E79688E72 /* [CP] Check Pods Manifest.lock */,
 				9A4861621FB3D7A60092AEA6 /* Sources */,
 				9A4861631FB3D7A60092AEA6 /* Frameworks */,
 				9A4861641FB3D7A60092AEA6 /* Resources */,
+				370A9ACC09D73CCBB3CBF84B /* [CP] Embed Pods Frameworks */,
+				0EFF6D1FEBC940A2C46C0ED3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -142,11 +211,63 @@
 			files = (
 				9A4861791FB3D7A70092AEA6 /* LaunchScreen.storyboard in Resources */,
 				9A4861761FB3D7A70092AEA6 /* Assets.xcassets in Resources */,
+				9A4861851FB3D8BB0092AEA6 /* Podfile in Resources */,
 				9A4861711FB3D7A70092AEA6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EFF6D1FEBC940A2C46C0ED3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StartWarsAPI/Pods-StartWarsAPI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		370A9ACC09D73CCBB3CBF84B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StartWarsAPI/Pods-StartWarsAPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A25BF64E62CF5A5E79688E72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StartWarsAPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9A4861621FB3D7A60092AEA6 /* Sources */ = {
@@ -154,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A48616E1FB3D7A60092AEA6 /* ViewController.m in Sources */,
+				9A48618E1FB3DB3B0092AEA6 /* WebServices.m in Sources */,
 				9A4861741FB3D7A70092AEA6 /* StartWarsAPI.xcdatamodeld in Sources */,
 				9A48617C1FB3D7A70092AEA6 /* main.m in Sources */,
 				9A48616B1FB3D7A60092AEA6 /* AppDelegate.m in Sources */,
@@ -288,6 +410,7 @@
 		};
 		9A4861801FB3D7A70092AEA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 042DFB78C5CAB05232BAD28F /* Pods-StartWarsAPI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -301,6 +424,7 @@
 		};
 		9A4861811FB3D7A70092AEA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7B4719D6D3EC5EB9216B00E /* Pods-StartWarsAPI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
